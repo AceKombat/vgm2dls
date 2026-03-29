@@ -5,7 +5,7 @@ vgm2dls is an experimental toolkit for drafting and testing conversion of video 
 Status: Alpha
 Current version: v0.5.0-alpha
 
-##Features:
+## Features:
 - Template-driven soundbank parsing
 - Automatic sample extraction to WAV (via bundled tools like `vgmstream`)
 - DLS generation with:
