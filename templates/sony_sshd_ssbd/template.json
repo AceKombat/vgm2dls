@@ -1,0 +1,17 @@
+{
+  "id": "sony_sshd_ssbd",
+  "display_name": "Sony - SShd/SSbd Soundbank",
+  "description": "Template for Sony SShd/SSbd soundbank library (.hd/.bd) (Ape Escape 3, Lifeline, Wild Arms 2, etc.)",
+  "parser_script": "scripts/extract_hd_to_txt.py",
+  "txth_template": "templates/ps1_adpcm_to_wav/txth/bank.txth",
+  "sample_rate_default": 22043,
+  "master_volume_default": 50,
+  "dls_defaults": {
+    "adsr_mode": "basic",
+    "use_adsr2": true,
+    "release_model": "spu_sim",
+    "spu_release_start_level": "full",
+    "spu_release_scale": 3.0,
+    "spu_release_shape": 1.0
+  }
+}

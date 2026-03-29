@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environment
+.venv/
+venv/
+
+# Generated pipeline output
+output/
+data/header_temp/
+data/header_temp_test/
+data/wav_temp/
+data/dls_output/
+
+# Logs
+batch_failures.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+codec=PSX
+sample_rate=22043
+channels=1
+loop_flag=auto
+num_samples=data_size

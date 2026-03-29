@@ -1,0 +1,27 @@
+{
+  "id": "sony_989_sbnk",
+  "display_name": "Sony - 989 SBNK Soundbank",
+  "description": "Template for 989 Studios SBNK soundbank library (.vh/.vb)",
+  "parser_script": "scripts/extract_989_to_txt.py",
+  "header_ext": "vh",
+  "bank_ext": "vb",
+  "header_arg": "--vh",
+  "bank_data_offset": 16,
+  "auto_skip_zeros16": true,
+  "container_ext": "fog",
+  "container_extract_script": "scripts/extract_989_fog.py",
+  "container_arg": "--fog",
+  "sample_rate_default": 22043,
+  "master_volume_default": 100,
+  "cents_step": 0.78125,
+  "root_shift": -12,
+  "dls_defaults": {
+    "adsr_mode": "basic",
+    "use_adsr2": true,
+    "pan_mode": "989_clef",
+    "release_model": "spu_sim",
+    "spu_release_start_level": "full",
+    "spu_release_scale": 4.8961,
+    "spu_release_shape": 1.0
+  }
+}
