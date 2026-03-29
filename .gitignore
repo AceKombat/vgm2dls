@@ -19,3 +19,9 @@ batch_failures.log
 # OS/editor noise
 .DS_Store
 Thumbs.db
+# Project runtime folders
+input/
+oldoutput/
+# Downloaded third-party tools (kept out of git)
+tools/vgmstream/
+tools/vgmstream*/

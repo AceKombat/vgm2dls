@@ -3,7 +3,7 @@
 vgm2dls is an experimental toolkit for drafting and testing conversion of video game soundbanks into .dls soundfonts.
 
 Status: Alpha
-Current version: v0.5.0-alpha
+Current version: v0.6.0-alpha
 
 ## Features:
 - Template-driven soundbank parsing

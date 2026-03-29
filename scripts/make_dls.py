@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import math
 import re
 import struct
@@ -856,7 +856,7 @@ def build_region_layer(
         layer["max_key"],
         0,  # vel low
         127,  # vel high
-        0,  # fusOptions
+        0x0001,  # fusOptions (SELFNONEXCLUSIVE: allow same-note overlap)
         0,  # usKeyGroup
     )
     rgnh = chunk(b"rgnh", rgnh_data)
@@ -1402,6 +1402,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
